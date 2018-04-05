@@ -24,10 +24,10 @@
 </head>
 
 <body>
-
+<div id="page-container">
   <!-- nav -->
 
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -58,13 +58,14 @@
 
     </div>
   </nav>
+  <div id="body">
 
   <!-- jumbotron -->
   <div class="landing">
     <div id="cta">
       <img id="logo" src="content\imgs\logo.png">
-      <div>
-        <p>THE BEST SERVICE IN
+      <div class="cta-container">
+        <p>THE BEST SERVICE IN<br> 
           <span id="typed"></span>
         </p>
         <button type="button" class="button-color btn btn-primary btn-lg">Get an Estimate</button>
@@ -123,10 +124,10 @@
         <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-sm-6 col-xs-12">
           <div class="about-head">
           <h1>30 years of<br>excellence</h1>
-          <p><i>since 1982</i></p>
+          <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500" data-aos-once="true"><i>since 1982</i></p>
         </div>
       </div>
-        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" data-aos-once="true" class="col-sm-6 col-xs-12">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750" data-aos-once="true" class="col-sm-6 col-xs-12">
 
           <p class="about-body">
             Ajax Property maintenance is a full service property maintenance and landscape company serving the landscape maintenance
@@ -159,6 +160,7 @@
     </div>
   </div>
 
+</div>
 
   <!-- foot -->
   <footer>
@@ -168,12 +170,13 @@
     <p>
       <i>
         <a href="https://www.google.ca/maps/place/855+Westney+Rd+S,+Ajax,+ON+L1S+3M4/@43.8305142,-79.0230339,17">855 Westney Road S., Ajax, ON.</a> |
-        <a href="mailto:movers@budgetmovingsolutions.com">info@ajaxpropertymaintenance.com</a> |
-        <a href="">(647)-289-5284</a>
+        <a href="#contact">info@ajaxpropertymaintenance.com</a> |
+        <a href="tel:+1-(905)-686-1455">(905)-686-1455</a>
       </i>
     </p>
 
   </footer>
+</div>
   <!-- scripts -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGrMVju5N4MFKm3dbfpH7GhwtHmYK1sXY&callback=myMap"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
