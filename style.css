@@ -1,3 +1,42 @@
+@media only screen and (max-width: 600px) {
+
+.sumimg1, .sumimg2, .sumimg3 {
+  height: 25vh;
+  width: 25vh;
+}
+.about-head {
+  text-align: center;
+}
+
+
+}
+
+@media only screen and (min-width: 600px) {
+
+.sumimg1, .sumimg2, .sumimg3 {
+  width: 15vh;
+  height: 15vh;
+}
+.about-head {
+  text-align: right;
+}
+
+
+} 
+
+@media only screen and (min-width: 768px) {
+
+.sumimg1, .sumimg2, .sumimg3 {
+  width: 15vh;
+  height: 15vh;
+}
+.about-head {
+  float: right;
+}
+
+
+} 
+
 * {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -7,9 +46,35 @@ body {
     padding: 0;
     margin: 0;
     min-height: 100%;
+    background-color: #263238;
 }
 
+#hr1 {
+  height: 2px;
+  color: #d63031;
+  background-color: #d63031;
+  border: none;
+  width: 50%;
+  }
+#hr2 {
+  height: 2px;
+  color: #00b894;
+  background-color: #00b894;
+  border: none;
+  width: 50%;
+  }
+#hr3 {
+  height: 2px;
+  color: #0984e3;
+  background-color: #0984e3;
+  border: none;
+  width: 50%;
+  }
+
+
+
 footer {
+    background-color: #263238;
     text-align: center;
     position: relative;
 }
@@ -20,10 +85,11 @@ ol {
 }
 
 .landing {
-    background-image: url("./content/imgs/landscaping.jpg");
-    background-size: cover;
+    background-image: url("./content/imgs/grass.jpg");
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 50vh;
 }
 
@@ -38,6 +104,7 @@ ol {
 #cta {
     color: white;
     font-size: 2em;
+    font-weight: 700;
     text-align: center;
     position: relative;
     top: 50%;
@@ -52,16 +119,43 @@ ol {
 
 /* circling around services imgs */
 
-.sumimg {
-    margin: 2vw 0 2vw 0;
-    width: 8vw;
-    height: 8vw;
+.sumimg1 {
+    margin: 2vh auto;
+    padding-bottom: 2vh;
+    background-image: url("./content/imgs/commercial.jpg");
+    background-size: cover;
     border-radius: 50%;
-    border: 4px solid #c0392b;
+    border: 8px solid #b2bec3;
+}
+.sumimg1:hover {
+    border: 8px solid #d63031;
+}
+.sumimg2 {
+    margin: 2vh auto;
+    padding-bottom: 2vh;
+    background-image: url("./content/imgs/snow.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid #b2bec3;
+}
+.sumimg2:hover {
+    border: 8px solid #00b894;
+}
+.sumimg3 {
+    margin: 2vh auto;
+    padding-bottom: 2vh;
+    background-image: url("./content/imgs/residential.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 8px solid #b2bec3;
+}
+.sumimg3:hover {
+   
+    border: 8px solid #0984e3;
 }
 
 #summary {
-    background-color: white;
+
     text-align: center;
     color: black;
     text-align: center;
@@ -73,9 +167,9 @@ ol {
     color: #c0392b;
 }
 
-.guarantee {
-    background-color: white;
-    color: black;
+.about {
+    background-color: #263238;
+    color: white;
     padding: 4vh;
     overflow: hidden;
 }
@@ -87,9 +181,6 @@ ol {
     padding-bottom: 2vh;
 }
 
-.contact {
-    background-color: #c0392b;
-}
 
 .head {
     text-align: center;
@@ -103,26 +194,14 @@ ol {
     padding: 1vh;
 }
 
-#rates {
-    background-color: #34495e;
-    text-align: center;
-    color: white;
-    text-align: center;
-    padding: 4vh;
-}
-
 #contact {
-    background-color: #34495e;
+
     text-align: center;
-    color: white;
+    color: black;
     text-align: center;
     padding: 4vh;
 }
 
-#rate-shadow {
-    border-left: 2px solid rgba(255, 255, 255, .5);
-    border-right: 2px solid rgba(255, 255, 255, .5);
-}
 
 #map {
     height: 250px;

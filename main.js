@@ -8,7 +8,7 @@ $(function () {
 
 
   var options = {
-    strings: ["OSHAWA", "TORONTO", "BOWMANVILLE", "WHITBY", "AJAX", "PICKERING", "SCARBOROUGH", "ETOBICOKE", "MISSISSAUGA", "BRAMPTON", "VAUGHAN", "RICHMOND HILL", "NEWMARKET"],
+    strings: ["OSHAWA", "BOWMANVILLE", "WHITBY", "AJAX", "PICKERING", "CLARINGTON"],
     typeSpeed: 110,
     backDelay: 2000,
     backSpeed: 75,
@@ -26,8 +26,8 @@ $(function () {
 
 function myMap() {
   var mapOptions = {
-    center: new google.maps.LatLng(43.939085, -78.887743),
-    zoom: 11,
+    center: new google.maps.LatLng(43.830514, -79.020845),
+    zoom: 13,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     styles: [{
         elementType: 'geometry',
@@ -160,8 +160,8 @@ function myMap() {
     draggable: true,
     animation: google.maps.Animation.DROP,
     position: {
-      lat: 43.939085,
-      lng: -78.887743
+      lat: 43.830514,
+      lng: -79.020845
     }
   });
 }
