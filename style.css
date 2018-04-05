@@ -1,0 +1,155 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+}
+
+ol {
+    list-style: none;
+    display: block;
+}
+
+.landing {
+    background-image: url("./content/imgs/landscaping.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50vh;
+}
+
+.btn.btn-primary {
+    background-color: #c0392b;
+    border: none;
+}
+
+
+/* logo on jumobtron */
+
+#cta {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#logo {
+    max-width: 5vw;
+    height: auto;
+}
+
+
+/* circling around services imgs */
+
+.sumimg {
+    margin: 2vw 0 2vw 0;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    border: 4px solid #c0392b;
+}
+
+#summary {
+    background-color: white;
+    text-align: center;
+    color: black;
+    text-align: center;
+    padding: 4vh;
+    overflow: hidden;
+}
+
+#typed {
+    color: #c0392b;
+}
+
+.guarantee {
+    background-color: white;
+    color: black;
+    padding: 4vh;
+    overflow: hidden;
+}
+
+.grnt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2vh;
+}
+
+.contact {
+    background-color: #c0392b;
+}
+
+.head {
+    text-align: center;
+    color: black;
+    padding: 1vh;
+}
+
+.head-white {
+    text-align: center;
+    color: white;
+    padding: 1vh;
+}
+
+#rates {
+    background-color: #34495e;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 4vh;
+}
+
+#contact {
+    background-color: #34495e;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 4vh;
+}
+
+#rate-shadow {
+    border-left: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .5);
+}
+
+#map {
+    height: 250px;
+    width: 400px;
+}
+
+#nav-logo {
+    height: 40px;
+    width: auto;
+}
+
+
+/* cursor blink for typewriter*/
+
+.typed-cursor {
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
