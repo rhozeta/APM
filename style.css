@@ -38,7 +38,7 @@
 } 
 
 * {
-    font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
 }
 
 html,
@@ -47,6 +47,10 @@ body {
     margin: 0;
     min-height: 100%;
     background-color: #263238;
+}
+
+h5 {
+    font-family: 'Fira Sans', sans-serif;
 }
 
 #hr1 {
@@ -85,7 +89,7 @@ ol {
 }
 
 .landing {
-    background-image: url("./content/imgs/grass.jpg");
+    background-image: url("./content/imgs/landing.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,6 +106,7 @@ ol {
 /* logo on jumobtron */
 
 #cta {
+  font-family: 'Lato', sans-serif;
     color: white;
     font-size: 2em;
     font-weight: 700;
@@ -173,6 +178,15 @@ ol {
     padding: 4vh;
     overflow: hidden;
 }
+.about-head > h2 {
+  font-size: 2em;
+}
+
+.about-body {
+  font-size: .8em;
+  font-weight: 500;
+  color: #636e72
+}
 
 .grnt {
     display: block;
@@ -186,6 +200,9 @@ ol {
     text-align: center;
     color: black;
     padding: 1vh;
+}
+.head > h2 {
+    font-weight: 700;
 }
 
 .head-white {
