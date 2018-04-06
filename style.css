@@ -87,6 +87,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
+    background-color: #2d3436
 }
 
 h5 {
@@ -232,7 +233,7 @@ ol {
 }
 
 #summary {
-
+    background-color: white;
     text-align: center;
     color: black;
     text-align: center;
@@ -241,7 +242,7 @@ ol {
 }
 
 #typed {
-    color: #00b894;
+    color: white;
 }
 
 .about {
@@ -284,7 +285,7 @@ ol {
 }
 
 #contact {
-
+    background-color: white;
     text-align: center;
     color: black;
     text-align: center;

@@ -8,7 +8,7 @@ $(function () {
 
 
   var options = {
-    strings: ["OSHAWA", "BOWMANVILLE", "WHITBY", "AJAX", "PICKERING", "CLARINGTON"],
+    strings: ["DURHAM REGION", "OSHAWA", "WHITBY", "AJAX", "PICKERING"],
     typeSpeed: 110,
     backDelay: 2000,
     backSpeed: 75,
