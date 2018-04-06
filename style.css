@@ -160,6 +160,7 @@ ol {
 }
 .navbar {
   background-color: white;
+  border-bottom: 1px solid  #2d3436;
 }
 
 .landing {
@@ -290,9 +291,12 @@ ol {
     padding: 4vh;
 }
 
+.contact-form {
+  padding-bottom: 15px;
+}
 
 #map {
-    height: 250px;
+    height: 350px;
     width: 400px;
 }
 

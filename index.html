@@ -153,7 +153,23 @@
       </div>
       <div class="row" >
         <div data-aos="fade" data-aos-duration="1000" data-aos-once="true" class="col-sm-6 col-xs-12">
-          <p>CONTACT FORM</p>
+          <form class="contact-form" action="https://formspree.io/nicholasmazzotta@gmail.com"
+          method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                  <label for="msg">Inquiry:</label>
+                  <textarea class="form-control" name="msg" rows="5" id="msg"></textarea>
+                </div>
+              <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
         <div id="map" class="col-sm-6 col-xs-12" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" >
         </div>
