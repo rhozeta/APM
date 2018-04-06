@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
   <script src="main.js"></script>
@@ -41,15 +42,15 @@
               <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Services
               <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="#">Commercial Property Maintenance</a></li>
+                <li><a class="nav-link" href="commercial.html">Commercial Property Maintenance</a></li>
                 <hr>
-                <li><a class="nav-link" href="#">Snow Removal</a></li>
+                <li><a class="nav-link" href="snow.html">Snow Removal</a></li>
                 <hr>
-                <li><a class="nav-link" href="#">Residential Property Maintenance</a></li>
+                <li><a class="nav-link" href="residential.html">Residential Property Maintenance</a></li>
               </ul>
             </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
@@ -68,7 +69,7 @@
         <p>THE BEST SERVICE IN<br> 
           <span id="typed"></span>
         </p>
-        <button type="button" class="button-color btn btn-primary btn-lg">Get an Estimate</button>
+        <a href="#contact" class="button-color btn btn-primary btn-lg">Get an Estimate</a>
       </div>
 
     </div>
@@ -118,7 +119,7 @@
   </div>
 
   <!-- guarantee -->
-  <div class="about">
+  <div id="about" class="about">
     <div class="container">
       <div class="row">
         <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="col-sm-6 col-xs-12">
@@ -167,13 +168,29 @@
     <p>
       <i>Copyright APM 2018 All Rights Reserved</i>
     </p>
-    <p>
-      <i>
-        <a href="https://www.google.ca/maps/place/855+Westney+Rd+S,+Ajax,+ON+L1S+3M4/@43.8305142,-79.0230339,17">855 Westney Road S., Ajax, ON.</a> |
-        <a href="#contact">info@ajaxpropertymaintenance.com</a> |
-        <a href="tel:+1-(905)-686-1455">(905)-686-1455</a>
-      </i>
-    </p>
+    <div class="container">
+    <div class="row foot-container">
+      <div class="foot-item col-md-4 col-sm-12">
+          <a href="https://www.google.ca/maps/place/855+Westney+Rd+S,+Ajax,+ON+L1S+3M4/@43.8305142,-79.0230339,17">
+          <i class="fas fa-location-arrow"></i>
+          <hr id="hr1">
+          <p>855 Westney Road S, Ajax, ON.</p>
+          </a>
+      </div>
+      <div class="foot-item col-md-4 col-sm-12">
+          <i class="fas fa-envelope"></i>
+          <hr id="hr2">
+          <a href="#contact">info@ajaxpropertymaintenance.com</a>
+      </div>
+      <div class="foot-item col-md-4 col-sm-12">
+          <a href="tel:+1-(905)-686-1455">
+          <i class="fas fa-phone"></i>
+          <hr id=hr3>
+          <p>(905)-686-1455</p>
+        </a>
+      </div>
+  </div>
+</div>
 
   </footer>
 </div>

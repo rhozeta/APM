@@ -3,3 +3,32 @@
 #content {
   height: max-content;
 }
+
+.card-contain {
+  margin: 0 auto;
+}
+.service-card {
+  margin: 10px;
+  
+}
+.service-card-snow {
+  max-width: 90vw;
+  margin: 10px auto;
+  
+}
+
+.btn-container {
+ text-align: center;
+}
+
+.content-header {
+  text-align: center;
+}
+
+#hrsum {
+  height: 2px;
+  color: #d63031;
+  background-color: #d63031;
+  border: none;
+  width: 50%;
+}
