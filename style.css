@@ -327,6 +327,8 @@ ol {
 }
 
 #content {
+  background-color: white;
   padding-top: 80px;
-  height: 100vh;
+  height: max-content;
+  padding-bottom: 10px;
 }
