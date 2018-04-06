@@ -16,7 +16,7 @@
 }
 
 footer {
-  height: 300px;
+  height: 350px;
 }
 #body {
   padding-bottom: 350px;
@@ -42,7 +42,7 @@ footer {
   margin-top: 40px;
 }
 footer {
-  height: 300px;
+  height: 350px;
 }
 #body {
   padding-bottom: 350px;
@@ -69,7 +69,7 @@ footer {
 }
 
 footer {
-  height: 150px;
+  height: 175px;
 }
 #body {
   padding-bottom: 200px;
@@ -128,7 +128,6 @@ footer {
 
 footer p {
   margin-bottom: 0;
-  padding-bottom: 1px;
 }
 
 footer a {
@@ -148,7 +147,9 @@ footer div:nth-of-type(2) a {
 
 .foot-item {
   padding-bottom: 5px;
+  padding-top: 5px;
 }
+
 #page-container {
   min-height: 100%;
   position: relative;
@@ -165,7 +166,6 @@ ol {
 
 .landing {
     background-image: url("./content/imgs/landing.jpg");
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
