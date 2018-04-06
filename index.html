@@ -157,19 +157,19 @@
           method="POST">
               <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" name="name" class="form-control" id="name" placeholder="Enter email">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
               </div>
               <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
               </div>
               <div class="form-group">
                   <label for="msg">Inquiry:</label>
-                  <textarea class="form-control" name="msg" rows="5" id="msg"></textarea>
+                  <textarea class="form-control" name="msg" rows="5" id="msg" required></textarea>
                 </div>
-                <input type="hidden" name="_next" value="index.html#contact">
-              <button type="submit" class="btn btn-primary">Submit</button>
+                <input type="hidden" name="_next" value="//rhozeta.github.io/APM/index.html#contact" />
+              <button type="submit" id="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
         <div id="map" class="col-sm-6 col-xs-12" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" >
