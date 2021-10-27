@@ -4,6 +4,10 @@
   height: 25vh;
   width: 25vh;
 }
+.alert-text {
+  font-weight: bold;
+}
+
 .about-head {
   text-align: center;
 }
